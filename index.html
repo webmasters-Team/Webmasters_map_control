@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webmasters small projects</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<body>
+    <div id="map">
+        <div id="mapControls">
+            <div id="mapZoom">
+                <div id="zoomIn" class="zoom-control" title="Zoom in the view"></div>
+                <div id="zoomOut" class="zoom-control" title="Zoom out the view"></div>
+                <div id="zoomSlider"></div>
+            </div>
+            
+            <div id="mapPan">
+                <div class="pan-split" id="panSplitVert"></div>
+                <div class="pan-split" id="panSplitHoriz"></div>
+                <div id="panCentre"></div>
+                <div class="pan-arrow" id="panTop" title="Pan view to the top"></div>
+                <div class="pan-arrow" id="panRight" title="Pan view to the right"></div>
+                <div class="pan-arrow" id="panBottom" title="Pan view to the bottom"></div>
+                <div class="pan-arrow" id="panLeft" title="Pan view to the left"></div>
+            </div>
+        </div>
+        
+        <div id="debug">
+            <u>Position</u><br><br>
+            X: <span id="posX">183</span>&nbsp; &nbsp;
+            Y: <span id="posY">107</span><br>
+            <br>
+            <u>Zoom</u><br><br>
+            Scale: <span id="zoomScale">1.0</span>
+        </div>
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>
